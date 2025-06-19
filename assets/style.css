@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    color: #000;
+    /* thêm dòng này để chắc chắn chữ màu đen */
+}
+
+header {
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin: 20px;
+}
+
+footer {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    color: #000;
+}
+
+th {
+    background-color: #eee;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 6px 12px;
+    text-decoration: none;
+    border: 1px solid #333;
+    margin-right: 5px;
+    color: purple;
+}
